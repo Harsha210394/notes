@@ -37,6 +37,8 @@ to restore project to original state is easy in terraform than manual approach
 used for hybrid cloud and many other providers
 	AWS, Azure, GCP, etc.
 
+for example we have github provider, instead of doing it manully we can write tf code to create repos etc....tf will call github api...to call that api we will authenticate...
+
 terraform --> it will check all the paths you have given in environment variables, if it is available then your command will work
 
 1. install terraform
@@ -66,6 +68,8 @@ terraform requires AWS provider configuration to create AWS infra
 2. create access key and secret key
 3. aws configure
 
+instead of mentioning access & secret key in github to connect o aws ,we connected via aws cli
+
 sg --> optional, then default security group will be attached
 
 where to run terraform command, wherever .tf file exists you have to run terraform command in that directory
@@ -76,6 +80,8 @@ terraform init --> intialize the provider,
 terraform plan --> just a plan, will not create actually
 
 terraform apply --> now it will create resource
+
+terraform destroy --> 
 
 variables
 -------------
