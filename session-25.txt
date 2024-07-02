@@ -20,7 +20,8 @@ read
 update
 delete
 
-inventory management
+inventory management -- once it will become a big project to it is difficult to get the report of which services are being used in cloud, will be easy in terraform
+ 
 cost optimisation
 	create when required, stop or delete when not required
 automatic dependency management
@@ -30,7 +31,9 @@ modules
 	
 declartive way of creative infrastructure
 	what is declartive? whatever you write you will get provided if you write correct syntax. easy syntax, no need to follow sequence
-	
+
+to restore project to original state is easy in terraform than manual approach
+
 used for hybrid cloud and many other providers
 	AWS, Azure, GCP, etc.
 
