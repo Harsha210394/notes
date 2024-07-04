@@ -1,3 +1,5 @@
+terraform validate command will run when we run plan command 
+
 Roboshop lo Web component costs?
 
 if(expression){
@@ -12,6 +14,9 @@ else{
 }
 
 expression ? "this will run if true" : "this will run if false"
+
+interpolation is when you want to mix text with variable, we will use this or you want to use 2 vars at a time we will mention like this
+  name    = "${var.instance_names[count.index]}.${var.domain_name}" #interpolation
 
 loops
 ------------
@@ -31,3 +36,5 @@ it will give some output
 locals
 -----------------
 locals is just like variables, but it have some extra capabilities. you can keep functions and expressions inside locals and use them
+
+if you have any expresion used in multiple places we will mention that in locals & use them
