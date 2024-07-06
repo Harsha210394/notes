@@ -12,7 +12,7 @@ locals
 
 data sources
 ------------------
-it is useful to query the data dynamically from providers
+it is useful to query the data dynamically from providers, as well as to query exsiting resorces info to use them while craeting others
 
 foreach loop
 -------------------
