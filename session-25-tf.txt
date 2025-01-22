@@ -25,11 +25,11 @@ inventory management -- once it will become a big project to it is difficult to 
 cost optimisation
 	create when required, stop or delete when not required
 automatic dependency management
-	we can create resources, terraform will take care of dependency management
+	we can create resources, terraform will take care of dependency management(Eg: need ec2 for route 53)
 modules
 	you can create terraform code as modules, other projects can use it without writing from the scratch
 	
-declartive way of creative infrastructure
+declartive way of creative infrastructure 
 	what is declartive? whatever you write you will get provided if you write correct syntax. easy syntax, no need to follow sequence
 
 to restore project to original state is easy in terraform than manual approach
